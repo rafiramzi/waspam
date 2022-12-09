@@ -1,4 +1,5 @@
 clear
+cat banner.txt
 echo - Connect your phone to this laptop using USB Cable
 echo - Android Only
 echo 
