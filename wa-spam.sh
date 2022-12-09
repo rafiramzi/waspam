@@ -1,11 +1,16 @@
 clear
-cat banner.txt
+cat banner.txt  
+echo
+echo "Created By thecracker404"
+echo "Friendly Spammer"
+echo                                       
+echo
 echo - Connect your phone to this laptop using USB Cable
 echo - Android Only
 echo 
 echo
 
-read -p 'Message: ' uservar
+read -p 'Enter Message: ' uservar
 read -p 'Country Code: ' usercod
 read -p 'phone number: ' userph
 adb shell am start -a android.intent.action.VIEW -d "https://api.whatsapp.com/send?phone=+[$usercod][$userph]&msg=$uservar"
